@@ -39,12 +39,12 @@ export const Route = createFileRoute("/")({
       },
       {
         property: "og:title",
-        content: "Espaço Veneza | Salão de Festas em Águas Lindas de Goiás",
+        content: "Espaço Veneza | Salão de Festas e Eventos",
       },
       {
         property: "og:description",
         content:
-          "Salão de festas e eventos em Águas Lindas de Goiás. Estrutura completa para casamentos, aniversários e formaturas. Consulte sua data pelo WhatsApp.",
+          "Realize o evento dos seus sonhos com beleza, conforto e estrutura completa em Águas Lindas de Goiás.",
       },
     ],
   }),
