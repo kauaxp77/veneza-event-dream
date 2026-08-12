@@ -1,82 +1,59 @@
-# Veneza Event Spaces
+# Espaço Veneza - Landing Page
 
-Atue como um Copywriter Sênior e Especialista em UI/UX para Web Design.
+Um projeto de Landing Page de alta conversão desenvolvido para o salão de festas e eventos **Espaço Veneza**, localizado em Águas Lindas de Goiás. O objetivo dessa aplicação é apresentar a estrutura do local, responder a dúvidas frequentes, destacar provas sociais e guiar os clientes para um atendimento direto pelo WhatsApp.
 
-Seu objetivo é criar a estrutura completa e os textos persuasivos (copy) para uma Landing Page de alta conversão para o Espaço Veneza, um salão de festas e eventos localizado em Águas Lindas de Goiás.
+## 🚀 Como acessar o site e rodar o projeto localmente
 
-Aqui estão as informações do negócio:
+Siga os passos abaixo para iniciar o ambiente de desenvolvimento na sua máquina e visualizar o site no seu navegador.
 
-Nome: Salão de festas e eventos | Espaço Veneza
+### Pré-requisitos
+- Ter o [Node.js](https://nodejs.org/pt-br/) instalado no seu computador.
+- O terminal deve estar aberto na pasta do projeto (`c:\Users\wende\projects\veneza-event-dream`).
 
-Localização: Quadra 42 Lote 993, Queda do Descoberto, Águas Lindas de Goiás - GO
+### Instalação e Execução
 
-Contato: (61) 99359-8935 / Instagram
+1. **Instalar as dependências do projeto:**
+   Abra o seu terminal na pasta do projeto e execute o comando abaixo (só precisa ser feito a primeira vez):
+   ```bash
+   npm install
+   ```
 
-Prova Social: Nota 4,7 de 5 estrelas (69 avaliações no Google).
+2. **Inicie o servidor de desenvolvimento:**
+   No mesmo terminal, rode o seguinte comando:
+   ```bash
+   npm run dev
+   ```
 
-Pontos Fortes (destacar na copy):
+3. **Acessando o projeto:**
+   O terminal informará que o Vite iniciou o projeto (provavelmente no endereço `http://localhost:5173` ou similar). 
+   Basta **segurar a tecla Ctrl e clicar no link** (ou copiar e colar o link no seu navegador) para ver a página!
 
-Espaço muito bonito, agradável, aconchegante e bem organizado.
+> **Dica**: Sempre que você quiser parar de rodar o projeto, basta ir no terminal e apertar `Ctrl + C`.
 
-Excelente estrutura de ponta a ponta (ideal para formaturas, aniversários e casamentos).
+## 🌍 Acesso à versão publicada (Live App)
+O projeto também já se encontra hospedado e acessível publicamente. Você pode visualizar a aplicação no ar agora mesmo através do link:
+👉 **[https://veneza-event-dream.lovable.app](https://veneza-event-dream.lovable.app)**
 
-Buffet de alta qualidade.
+---
 
-Possui piscina, banheiros bem estruturados e é um ambiente seguro.
+## 🛠️ Tecnologias Utilizadas
 
-Objeções a serem neutralizadas sutilmente na copy (sem mencioná-las diretamente):
+Este projeto foi construído com o que há de mais moderno no desenvolvimento web:
+- **React.js & Vite**: Base do projeto, focada em performance e rapidez na construção de interfaces de usuário.
+- **TanStack Router**: Gerenciamento de rotas fluído e seguro, permitindo navegação instantânea.
+- **Tailwind CSS**: Framework para estilização (CSS) que ajudou a criar o visual responsivo, elegante e customizado.
+- **Radix UI / shadcn-ui**: Utilizado para criar os componentes interativos do site como botões, FAQ (Accordion), modais, sem perder acessibilidade.
+- **Lucide React**: Biblioteca de ícones belos e consistentes.
+- **TypeScript**: Trazendo melhor manutenibilidade e segurança via tipagem de dados.
 
-Calor/Abafado: Destaque os ambientes bem ventilados ou as áreas externas com piscina.
+## 📋 Funcionalidades / Estrutura da Página
 
-Atendimento: Enfatize uma equipe treinada, acolhedora e pronta para servir com excelência.
+A Landing Page foi focada em neutralizar objeções (calor, capacitação da equipe) indiretamente com as seguintes seções:
+* **Hero Section:** Primeira tela impactante focada no "evento dos sonhos", com chamada forte para WhatsApp.
+* **Benefícios e Estrutura:** Destaca o Buffet, a Piscina, a organização e o conforto dos ambientes e banheiros.
+* **Depoimentos (Prova Social):** Reforça a qualidade com base nas mais de 69 avaliações 5 estrelas do Google.
+* **FAQ:** Acordeões iterativos que tiram dúvidas pré-contratação.
+* **Rodapé e Localização:** Endereço (Queda do Descoberto, Águas Lindas) e botões de chamada rápida para interação de fechamento.
 
-Entregáveis esperados para a Landing Page:
-
-Hero Section (Primeira dobra):
-
-Uma Headline (Título) principal focada no desejo do cliente (ex: realizar o evento dos sonhos).
-
-Uma Sub-headline de apoio.
-
-Um Call to Action (CTA) claro e direto para o WhatsApp.
-
-Seção de Benefícios/Estrutura:
-
-Tópicos curtos sobre o que o espaço oferece (Piscina, Segurança, Buffet, etc.).
-
-Seção de Prova Social (Depoimentos):
-
-Adapte 3 depoimentos reais baseados nas informações fornecidas.
-
-Seção de FAQ (Perguntas Frequentes):
-
-Crie 3 perguntas comuns que as pessoas fariam antes de alugar o espaço.
-
-Rodapé e CTA Final:
-
-Endereço completo, horários e um último botão de conversão forte.
-
-Por favor, forneça o conteúdo formatado em blocos para facilitar a implementação do código HTML/CSS, sugerindo também onde colocar fotos e vídeos para aumentar a conversão.
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://veneza-event-dream.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/27c02e89-cea6-4cf1-85dd-1a2d78db8225).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+## 🤝 Suporte
+A aplicação foi gerada usando Lovable e React. Se quiser desenvolver novas seções ou alterar o estilo, a maioria dos componentes fica na pasta `src/components/`, enquanto que a página central da home está em `src/pages/`.
