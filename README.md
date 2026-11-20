@@ -1,59 +1,134 @@
-# Espaço Veneza - Landing Page
+<p align="center">
+  <img src="docs/banner.png" alt="Espaço Veneza - Landing page do salão de festas e eventos" width="100%">
+</p>
 
-Um projeto de Landing Page de alta conversão desenvolvido para o salão de festas e eventos **Espaço Veneza**, localizado em Águas Lindas de Goiás. O objetivo dessa aplicação é apresentar a estrutura do local, responder a dúvidas frequentes, destacar provas sociais e guiar os clientes para um atendimento direto pelo WhatsApp.
+<h1 align="center">🎉 Espaço Veneza — Landing Page</h1>
 
-## 🚀 Como acessar o site e rodar o projeto localmente
+<p align="center">
+  Landing page de alta conversão para o salão de festas e eventos <b>Espaço Veneza</b>, em
+  <b>Águas Lindas de Goiás (GO)</b>: apresenta a estrutura, tira dúvidas e leva o cliente direto ao <b>WhatsApp</b>.
+</p>
 
-Siga os passos abaixo para iniciar o ambiente de desenvolvimento na sua máquina e visualizar o site no seu navegador.
+<p align="center">
+  <a href="https://veneza-event-dream.lovable.app"><img src="https://img.shields.io/badge/Site-veneza--event--dream.lovable.app-d9b45a?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Site no ar"></a>
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19">
+  <img src="https://img.shields.io/badge/TanStack%20Start-Router-FF4154?style=for-the-badge&logo=reactquery&logoColor=white" alt="TanStack Start">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+</p>
 
-### Pré-requisitos
-- Ter o [Node.js](https://nodejs.org/pt-br/) instalado no seu computador.
-- O terminal deve estar aberto na pasta do projeto (`c:\Users\wende\projects\veneza-event-dream`).
-
-### Instalação e Execução
-
-1. **Instalar as dependências do projeto:**
-   Abra o seu terminal na pasta do projeto e execute o comando abaixo (só precisa ser feito a primeira vez):
-   ```bash
-   npm install
-   ```
-
-2. **Inicie o servidor de desenvolvimento:**
-   No mesmo terminal, rode o seguinte comando:
-   ```bash
-   npm run dev
-   ```
-
-3. **Acessando o projeto:**
-   O terminal informará que o Vite iniciou o projeto (provavelmente no endereço `http://localhost:5173` ou similar). 
-   Basta **segurar a tecla Ctrl e clicar no link** (ou copiar e colar o link no seu navegador) para ver a página!
-
-> **Dica**: Sempre que você quiser parar de rodar o projeto, basta ir no terminal e apertar `Ctrl + C`.
-
-## 🌍 Acesso à versão publicada (Live App)
-O projeto também já se encontra hospedado e acessível publicamente. Você pode visualizar a aplicação no ar agora mesmo através do link:
-👉 **[https://veneza-event-dream.lovable.app](https://veneza-event-dream.lovable.app)**
+<p align="center">
+  <a href="#-sobre-o-projeto">Sobre</a> •
+  <a href="#-funcionalidades">Funcionalidades</a> •
+  <a href="#-telas">Telas</a> •
+  <a href="#-como-executar">Como executar</a> •
+  <a href="#-estrutura-do-projeto">Estrutura</a> •
+  <a href="#-tecnologias">Tecnologias</a>
+</p>
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📌 Sobre o projeto
 
-Este projeto foi construído com o que há de mais moderno no desenvolvimento web:
-- **React.js & Vite**: Base do projeto, focada em performance e rapidez na construção de interfaces de usuário.
-- **TanStack Router**: Gerenciamento de rotas fluído e seguro, permitindo navegação instantânea.
-- **Tailwind CSS**: Framework para estilização (CSS) que ajudou a criar o visual responsivo, elegante e customizado.
-- **Radix UI / shadcn-ui**: Utilizado para criar os componentes interativos do site como botões, FAQ (Accordion), modais, sem perder acessibilidade.
-- **Lucide React**: Biblioteca de ícones belos e consistentes.
-- **TypeScript**: Trazendo melhor manutenibilidade e segurança via tipagem de dados.
+Landing page desenvolvida para o salão de festas e eventos **Espaço Veneza**, localizado em Águas Lindas de Goiás.
+O objetivo é apresentar a estrutura do local, responder às dúvidas frequentes, destacar a prova social e guiar o
+cliente para um atendimento direto pelo **WhatsApp**.
 
-## 📋 Funcionalidades / Estrutura da Página
+A página foi pensada para neutralizar objeções comuns antes da contratação (calor, estrutura para o buffet,
+estacionamento, como funciona a reserva) e termina sempre numa chamada para consultar a data.
 
-A Landing Page foi focada em neutralizar objeções (calor, capacitação da equipe) indiretamente com as seguintes seções:
-* **Hero Section:** Primeira tela impactante focada no "evento dos sonhos", com chamada forte para WhatsApp.
-* **Benefícios e Estrutura:** Destaca o Buffet, a Piscina, a organização e o conforto dos ambientes e banheiros.
-* **Depoimentos (Prova Social):** Reforça a qualidade com base nas mais de 69 avaliações 5 estrelas do Google.
-* **FAQ:** Acordeões iterativos que tiram dúvidas pré-contratação.
-* **Rodapé e Localização:** Endereço (Queda do Descoberto, Águas Lindas) e botões de chamada rápida para interação de fechamento.
+🌍 **Versão publicada:** [veneza-event-dream.lovable.app](https://veneza-event-dream.lovable.app)
 
-## 🤝 Suporte
-A aplicação foi gerada usando Lovable e React. Se quiser desenvolver novas seções ou alterar o estilo, a maioria dos componentes fica na pasta `src/components/`, enquanto que a página central da home está em `src/pages/`.
+## ✨ Funcionalidades
+
+| | Recurso | Descrição |
+|---|---|---|
+| 🌟 | **Hero** | Primeira tela focada no "evento dos sonhos", com chamada forte para o WhatsApp |
+| 🏛️ | **Estrutura** | Espaço climatizado, cozinha e área de apoio, som/luz/pista e estacionamento |
+| 🖼️ | **Galeria** | Fotos de casamento, festa infantil, área externa com piscina e formatura |
+| 💬 | **Depoimentos** | Prova social com relatos de clientes por tipo de evento |
+| ❓ | **Dúvidas frequentes** | Acordeão (Radix UI) com capacidade, buffet próprio e forma de reserva |
+| 📍 | **Rodapé e localização** | Endereço, rota no Google Maps, contato e horário de atendimento |
+| 📲 | **WhatsApp** | Botões de chamada e botão flutuante com mensagem pronta de consulta de data |
+| 🔎 | **SEO** | Título, descrição e tags Open Graph definidos na rota |
+| 📱 | **Responsivo** | Layout adaptado para celular, sem rolagem lateral |
+
+## 🖼️ Telas
+
+<table>
+  <tr>
+    <td align="center"><b>Página inicial</b><br><img src="docs/screenshots/inicio.png" alt="Página inicial"></td>
+    <td align="center"><b>Estrutura</b><br><img src="docs/screenshots/estrutura.png" alt="Estrutura"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Galeria</b><br><img src="docs/screenshots/galeria.png" alt="Galeria"></td>
+    <td align="center"><b>Depoimentos</b><br><img src="docs/screenshots/depoimentos.png" alt="Depoimentos"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Dúvidas frequentes</b><br><img src="docs/screenshots/faq.png" alt="Dúvidas frequentes"></td>
+    <td align="center"><b>Celular</b><br><img src="docs/screenshots/mobile.png" alt="Versão para celular" width="260"></td>
+  </tr>
+</table>
+
+## 🚀 Como executar
+
+**Pré-requisito:** [Node.js](https://nodejs.org/pt-br/) instalado (o projeto também tem `bun.lock`, se preferir o Bun).
+
+```bash
+git clone https://github.com/kauaxp77/veneza-event-dream.git
+cd veneza-event-dream
+npm install
+npm run dev
+```
+
+O terminal mostra o endereço local (normalmente `http://localhost:5173` ou similar). Basta **segurar Ctrl e
+clicar no link** ou copiá-lo para o navegador. Para parar, aperte `Ctrl + C` no terminal.
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+O build usa o Nitro com destino Cloudflare e gera a pasta `.output/`.
+
+## 📁 Estrutura do projeto
+
+```
+veneza-event-dream/
+├── src/
+│   ├── routes/
+│   │   ├── __root.tsx       # Layout raiz (html, head, fontes) que envolve todas as páginas
+│   │   └── index.tsx        # A landing page: hero, estrutura, galeria, depoimentos, FAQ e rodapé
+│   ├── components/ui/       # Componentes shadcn/ui (Radix UI)
+│   ├── assets/              # Foto do topo e imagens da galeria
+│   ├── hooks/ e lib/        # Utilitários e captura de erros
+│   ├── router.tsx           # Configuração do TanStack Router
+│   ├── routeTree.gen.ts     # Árvore de rotas (gerada automaticamente)
+│   ├── server.ts            # Entrada do servidor (SSR)
+│   └── styles.css           # Tailwind e tema (cores e fontes)
+├── public/                  # Favicon e robots.txt
+├── docs/                    # Banner e capturas de tela deste README
+├── vite.config.ts           # Configuração do Vite (Lovable + TanStack Start)
+└── package.json
+```
+
+> As rotas seguem o roteamento por arquivos do TanStack Start: cada `.tsx` em `src/routes/` vira uma página
+> (veja [`src/routes/README.md`](src/routes/README.md)).
+
+## 🛠️ Tecnologias
+
+- **React 19 & Vite**: base do projeto, focada em desempenho
+- **TanStack Start / TanStack Router**: rotas por arquivo e renderização no servidor
+- **Tailwind CSS**: visual responsivo e personalizado
+- **Radix UI / shadcn-ui**: componentes acessíveis (como o acordeão do FAQ)
+- **Lucide React**: ícones
+- **TypeScript**: tipagem e manutenção
+- **Lovable**: geração e publicação do projeto
+
+## 👨‍💻 Autor
+
+Desenvolvido por **[kauaxp77](https://github.com/kauaxp77)** para o Espaço Veneza • Águas Lindas de Goiás — GO
+
+<p align="center">⭐ Se curtiu o projeto, deixe uma estrela!</p>
